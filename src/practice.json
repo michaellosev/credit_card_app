@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "issuer": "visa",
+    "bank": "chase",
+    "cardName": "Chase Sapphire Preferred",
+    "image": "sapphire-preferred.png",
+    "cardDetails": {
+      "annualFee": 95,
+      "signupBonus": {
+        "amount": 60000,
+        "neededSpend": 4000,
+        "type": "points",
+        "time": 3
+      },
+      "pointType": "chaseUltimateRewards",
+      "pointValue": 0.02,
+      "cashBackCategories": [
+        { 
+          "category": "dining",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 2
+        },
+        {
+          "category": "travel",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 2
+        },
+        {
+          "category": "groceries",
+          "limit": 1000,
+          "period": 1,
+          "timeUntil": "4/30/21",
+          "points": 2
+        },
+        {
+          "category": "other",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "issuer": "masterCard",
+    "bank": "chase",
+    "cardName": "Chase Freedom Unlimited",
+    "image": "freedom-unlimited.png",
+    "cardDetails": {
+      "annualFee": 0,
+      "signupBonus": {
+        "amount": 20000,
+        "neededSpend": 500,
+        "type": "points",
+        "time" : 3
+      },
+      "pointType": "chaseUltimateRewards",
+      "pointValue": 0.02,
+      "cashBackCategories": [
+        {
+          "category": "dining",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 3
+        },
+        {
+          "category": "drugstore",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 3
+        },
+        {
+          "category": "groceries",
+          "limit": 12000,
+          "period": null,
+          "timeUntil": 12,
+          "points": 5
+        },
+        {
+          "category": "other",
+          "limit": null,
+          "period": null,
+          "timeUntil": null,
+          "points": 1.5
+        }
+      ]
+    }
+  }
+]
