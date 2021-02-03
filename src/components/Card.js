@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import LineItem from './lineItem';
-import { log } from 'util';
 
 const Card = ({ card, selectedVals, categoryToIcon }) => {
-  
-  console.log('hello')
+
   return (
       <div className={`bg-white rounded-xl p-6 m-4 space-y-3 shadow-lg ${selectedVals.filter(obj => obj === card.cardName).length != 0 ? 'border-2 border-green-400' : 'border-2 border-white'}`}>
         <div className="relative flex justify-center border-b-2 border-gray-300 w-full text-center mb-4">
