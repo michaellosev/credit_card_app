@@ -1,3 +1,5 @@
+this project can be viewed [here](https://michaellosev.github.io/credit_card_app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
